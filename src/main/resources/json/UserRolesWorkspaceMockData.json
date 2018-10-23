@@ -11,32 +11,32 @@
           "apps": [
             {
               "name": "WEB_DOC_EXPLORER",
-              "displayName": "Document Explorer",
+              "displayName": "Web Document Explorer",
               "index": 1
             },
             {
               "name": "WEB_INCOME_ANALYZER",
-              "displayName": "Income Analyzer",
+              "displayName": "Web Income Analyzer",
               "index": 2
             },
             {
               "name": "WEB_CREDIT_ANALYZER",
-              "displayName": "Credit Analyzer",
+              "displayName": "Web Credit Analyzer",
               "index": 3
             },
             {
               "name": "WEB_DATA_AUDIT",
-              "displayName": "Data Audit",
+              "displayName": "Web Data Audit",
               "index": 4
             },
             {
               "name": "WEB_CONDITIONS",
-              "displayName": "Conditions",
+              "displayName": "Web Conditions",
               "index": 5
             },
             {
               "name": "WEB_FILED_DOCS",
-              "displayName": "Filed Docs",
+              "displayName": "Web Filed Docs",
               "index": 6
             }
           ]
