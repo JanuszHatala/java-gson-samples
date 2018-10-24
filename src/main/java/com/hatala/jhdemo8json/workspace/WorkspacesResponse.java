@@ -1,4 +1,4 @@
-package com.jhexample.jhdemo8json.workspace;
+package com.hatala.jhdemo8json.workspace;
 
 
 import org.springframework.stereotype.Component;

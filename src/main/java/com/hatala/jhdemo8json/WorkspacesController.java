@@ -1,6 +1,6 @@
-package com.jhexample.jhdemo8json;
+package com.hatala.jhdemo8json;
 
-import com.jhexample.jhdemo8json.workspace.WorkspacesResponse;
+import com.hatala.jhdemo8json.workspace.WorkspacesResponse;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;

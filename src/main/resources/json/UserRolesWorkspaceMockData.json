@@ -1,171 +1,171 @@
 {
   "roles": [
     {
-      "name": "WebUW",
-      "defaultWorkspaceName": "WEB_UNDERWRITER_WORKSPACE",
+      "name": "Role1",
+      "defaultWorkspaceName": "MAIN_WORKSPACE",
       "workspaces": [
         {
-          "name": "WEB_UNDERWRITER_WORKSPACE",
-          "displayName": "Web Underwriter Workspace",
-          "defaultAppName": "WEB_FILED_DOCS",
+          "name": "MAIN_WORKSPACE",
+          "displayName": "Web Main Workspace",
+          "defaultAppName": "DOCS",
           "apps": [
             {
-              "name": "WEB_DOC_EXPLORER",
-              "displayName": "Web Document Explorer",
+              "name": "EXPLORER",
+              "displayName": "Web Explorer App",
               "index": 1
             },
             {
-              "name": "WEB_INCOME_ANALYZER",
-              "displayName": "Web Income Analyzer",
+              "name": "INCOME",
+              "displayName": "Web Income App",
               "index": 2
             },
             {
-              "name": "WEB_CREDIT_ANALYZER",
-              "displayName": "Web Credit Analyzer",
+              "name": "CREDIT",
+              "displayName": "Web Credit App",
               "index": 3
             },
             {
-              "name": "WEB_DATA_AUDIT",
-              "displayName": "Web Data Audit",
+              "name": "DATA",
+              "displayName": "Web Data App",
               "index": 4
             },
             {
-              "name": "WEB_CONDITIONS",
-              "displayName": "Web Conditions",
+              "name": "CONDITIONS",
+              "displayName": "Web Conditions App",
               "index": 5
             },
             {
-              "name": "WEB_FILED_DOCS",
-              "displayName": "Web Filed Docs",
+              "name": "DOCS",
+              "displayName": "Web Docs App",
               "index": 6
             }
           ]
         },
         {
-          "name": "WEB_JUNIOR_UNDERWRITER_WORKSPACE",
-          "displayName": "Web Junior Underwriter Workspace",
-          "defaultAppName": "WEB_CONDITIONS",
-          "apps": [
-            {
-              "name": "WEB_FILED_DOCS",
-              "displayName": "Filed Docs",
-              "index": 1
-            },
-            {
-              "name": "WEB_CREDIT_ANALYZER",
-              "displayName": "Credit Analyzer",
-              "index": 2
-            },
-            {
-              "name": "WEB_CONDITIONS",
-              "displayName": "Conditions",
-              "index": 3
-            }
-          ]
-        },
-        {
-          "name": "GENERAL",
-          "displayName": "General Workspace",
-          "defaultAppName": "WEB_FILED_DOCS",
-          "apps": [
-            {
-              "name": "WEB_DOC_EXPLORER",
-              "displayName": "Document Explorer",
-              "index": 1
-            },
-            {
-              "name": "WEB_FILED_DOCS",
-              "displayName": "Filed Docs",
-              "index": 2
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "WebJuniorUW",
-      "defaultWorkspaceName": "WEB_JUNIOR_UNDERWRITER_WORKSPACE",
-      "workspaces": [
-        {
-          "name": "GENERAL",
-          "displayName": "General Workspace",
-          "defaultAppName": "WEB_FILED_DOCS",
-          "apps": [
-            {
-              "name": "WEB_DOC_EXPLORER",
-              "displayName": "Document Explorer",
-              "index": 1
-            },
-            {
-              "name": "WEB_FILED_DOCS",
-              "displayName": "Filed Docs",
-              "index": 2
-            }
-          ]
-        },
-        {
-          "name": "WEB_JUNIOR_UNDERWRITER_WORKSPACE",
-          "displayName": "Web Junior Underwriter Workspace",
-          "defaultAppName": "WEB_CONDITIONS",
-          "apps": [
-            {
-              "name": "WEB_FILED_DOCS",
-              "displayName": "Filed Docs",
-              "index": 1
-            },
-            {
-              "name": "WEB_CREDIT_ANALYZER",
-              "displayName": "Credit Analyzer",
-              "index": 2
-            },
-            {
-              "name": "WEB_CONDITIONS",
-              "displayName": "Conditions",
-              "index": 3
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "name": "DV_UNDERWRITER",
-      "defaultWorkspaceName": "UNDERWRITER_WORKSPACE",
-      "workspaces": [
-        {
-          "name": "GENERAL",
-          "displayName": "General Workspace",
-          "defaultAppName": "WEB_FILED_DOCS",
-          "apps": [
-            {
-              "name": "FILED_DOCS",
-              "displayName": "Filed Docs",
-              "index": 1
-            },
-            {
-              "name": "DOC_EXPLORER",
-              "displayName": "Document Explorer",
-              "index": 2
-            }
-          ]
-        },
-        {
-          "name": "UNDERWRITER_WORKSPACE",
-          "displayName": "Underwriter Workspace",
+          "name": "JUNIOR_WORKSPACE",
+          "displayName": "Web Junior Workspace",
           "defaultAppName": "CONDITIONS",
           "apps": [
             {
-              "name": "FILED_DOCS",
-              "displayName": "Filed Docs",
+              "name": "DOCS",
+              "displayName": "Docs App",
               "index": 1
             },
             {
-              "name": "DATA_AUDIT",
-              "displayName": "Data Audit",
+              "name": "CREDIT",
+              "displayName": "Credit App",
               "index": 2
             },
             {
               "name": "CONDITIONS",
-              "displayName": "Conditions",
+              "displayName": "Conditions App",
+              "index": 3
+            }
+          ]
+        },
+        {
+          "name": "GENERAL",
+          "displayName": "General Workspace",
+          "defaultAppName": "DOCS",
+          "apps": [
+            {
+              "name": "EXPLORER",
+              "displayName": "Explorer App",
+              "index": 1
+            },
+            {
+              "name": "DOCS",
+              "displayName": "Docs App",
+              "index": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Role2",
+      "defaultWorkspaceName": "JUNIOR_WORKSPACE",
+      "workspaces": [
+        {
+          "name": "GENERAL",
+          "displayName": "General Workspace",
+          "defaultAppName": "DOCS",
+          "apps": [
+            {
+              "name": "EXPLORER",
+              "displayName": "Explorer App",
+              "index": 1
+            },
+            {
+              "name": "DOCS",
+              "displayName": "Docs App",
+              "index": 2
+            }
+          ]
+        },
+        {
+          "name": "JUNIOR_WORKSPACE",
+          "displayName": "Web Junior Main Workspace",
+          "defaultAppName": "CONDITIONS",
+          "apps": [
+            {
+              "name": "DOCS",
+              "displayName": "Docs App",
+              "index": 1
+            },
+            {
+              "name": "CREDIT",
+              "displayName": "Credit App",
+              "index": 2
+            },
+            {
+              "name": "CONDITIONS",
+              "displayName": "Conditions App",
+              "index": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Role3",
+      "defaultWorkspaceName": "MIDDLE_WORKSPACE",
+      "workspaces": [
+        {
+          "name": "GENERAL",
+          "displayName": "General Workspace",
+          "defaultAppName": "DOCS",
+          "apps": [
+            {
+              "name": "DSK_DOCS",
+              "displayName": "Docs App",
+              "index": 1
+            },
+            {
+              "name": "DSK_EXPLORER",
+              "displayName": "Explorer App",
+              "index": 2
+            }
+          ]
+        },
+        {
+          "name": "MIDDLE_WORKSPACE",
+          "displayName": "Main Workspace",
+          "defaultAppName": "CONDITIONS",
+          "apps": [
+            {
+              "name": "DSK_DOCS",
+              "displayName": "Docs App",
+              "index": 1
+            },
+            {
+              "name": "DSK_DATA",
+              "displayName": "Data App",
+              "index": 2
+            },
+            {
+              "name": "CONDITIONS",
+              "displayName": "Conditions App",
               "index": 3
             }
           ]

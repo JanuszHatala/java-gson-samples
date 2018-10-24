@@ -1,4 +1,4 @@
-package com.jhexample.jhdemo8json;
+package com.hatala.jhdemo8json;
 
 import org.springframework.core.annotation.AliasFor;
 import org.springframework.http.MediaType;

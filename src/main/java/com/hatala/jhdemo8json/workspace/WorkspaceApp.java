@@ -1,19 +1,19 @@
-package com.jhexample.jhdemo8json.workspace;
+package com.hatala.jhdemo8json.workspace;
 
 
-import com.jhexample.jhdemo8json.BizAppType;
+import com.hatala.jhdemo8json.AppType;
 
 public class WorkspaceApp {
 
-	private BizAppType name;
+	private AppType name;
 	private String displayName;
 	private Integer index;
 
-	public BizAppType getName() {
+	public AppType getName() {
 		return name;
 	}
 
-	public void setName(BizAppType name) {
+	public void setName(AppType name) {
 		this.name = name;
 	}
 

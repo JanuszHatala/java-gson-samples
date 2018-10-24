@@ -1,0 +1,174 @@
+[
+  {
+    "name": "Role1",
+    "defaultWorkspaceName": "MAIN_WORKSPACE",
+    "workspaces": [
+      {
+        "name": "MAIN_WORKSPACE",
+        "displayName": "Web Main Workspace",
+        "defaultAppName": "DOCS",
+        "apps": [
+          {
+            "name": "EXPLORER",
+            "displayName": "Explorer App",
+            "index": 1
+          },
+          {
+            "name": "INCOME",
+            "displayName": "Income App",
+            "index": 2
+          },
+          {
+            "name": "CREDIT",
+            "displayName": "Credit App",
+            "index": 3
+          },
+          {
+            "name": "DATA",
+            "displayName": "Data App",
+            "index": 4
+          },
+          {
+            "name": "CONDITIONS",
+            "displayName": "Conditions App",
+            "index": 5
+          },
+          {
+            "name": "DOCS",
+            "displayName": "Docs App",
+            "index": 6
+          }
+        ]
+      },
+      {
+        "name": "JUNIOR_WORKSPACE",
+        "displayName": "Web Junior Workspace",
+        "defaultAppName": "CONDITIONS",
+        "apps": [
+          {
+            "name": "DOCS",
+            "displayName": "Docs App",
+            "index": 1
+          },
+          {
+            "name": "CREDIT",
+            "displayName": "Credit App",
+            "index": 2
+          },
+          {
+            "name": "CONDITIONS",
+            "displayName": "Conditions App",
+            "index": 3
+          }
+        ]
+      },
+      {
+        "name": "GENERAL",
+        "displayName": "General Workspace",
+        "defaultAppName": "DOCS",
+        "apps": [
+          {
+            "name": "EXPLORER",
+            "displayName": "Explorer App",
+            "index": 1
+          },
+          {
+            "name": "DOCS",
+            "displayName": "Docs App",
+            "index": 2
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Role2",
+    "defaultWorkspaceName": "JUNIOR_WORKSPACE",
+    "workspaces": [
+      {
+        "name": "GENERAL",
+        "displayName": "General Workspace",
+        "defaultAppName": "DOCS",
+        "apps": [
+          {
+            "name": "EXPLORER",
+            "displayName": "Explorer App",
+            "index": 1
+          },
+          {
+            "name": "DOCS",
+            "displayName": "Docs App",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "name": "JUNIOR_WORKSPACE",
+        "displayName": "Web Junior Main Workspace",
+        "defaultAppName": "CONDITIONS",
+        "apps": [
+          {
+            "name": "DOCS",
+            "displayName": "Docs App",
+            "index": 1
+          },
+          {
+            "name": "CREDIT",
+            "displayName": "Credit App",
+            "index": 2
+          },
+          {
+            "name": "CONDITIONS",
+            "displayName": "Conditions App",
+            "index": 3
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Role3",
+    "defaultWorkspaceName": "MIDDLE_WORKSPACE",
+    "workspaces": [
+      {
+        "name": "GENERAL",
+        "displayName": "General Workspace",
+        "defaultAppName": "DOCS",
+        "apps": [
+          {
+            "name": "DSK_DOCS",
+            "displayName": "Dsk Docs App",
+            "index": 1
+          },
+          {
+            "name": "DSK_EXPLORER",
+            "displayName": "Dsk Explorer App",
+            "index": 2
+          }
+        ]
+      },
+      {
+        "name": "MIDDLE_WORKSPACE",
+        "displayName": "Main Workspace",
+        "defaultAppName": "CONDITIONS",
+        "apps": [
+          {
+            "name": "DSK_DOCS",
+            "displayName": "Dsk Docs App",
+            "index": 1
+          },
+          {
+            "name": "DSK_DATA",
+            "displayName": "Dsk Data App",
+            "index": 2
+          },
+          {
+            "name": "CONDITIONS",
+            "displayName": "Conditions App",
+            "index": 3
+          }
+        ]
+      }
+    ]
+  }
+]

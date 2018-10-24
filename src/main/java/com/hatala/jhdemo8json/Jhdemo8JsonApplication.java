@@ -1,18 +1,14 @@
-package com.jhexample.jhdemo8json;
+package com.hatala.jhdemo8json;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import java.io.*;
-import java.net.URL;
-import java.nio.file.Files;
 
 @SpringBootApplication
 public class Jhdemo8JsonApplication {
 
 	public static void main(String[] args) {
 
-//		String fileName = "/json/UserRoleWorkspacesMockData.json";
+//		String fileName = "/json/UserRoleListWorkspacesMockData.json";
 //		ClassLoader classLoader = new Jhdemo8JsonApplication().getClass().getClassLoader();
 //
 //		File file = new File(classLoader.getResource(fileName).getFile());
@@ -30,7 +26,7 @@ public class Jhdemo8JsonApplication {
 //		System.out.println(content);
 
 
-//		URL resource = Jhdemo8JsonApplication.class.getClassLoader().getResource("/json/UserRoleWorkspacesMockData.json");
+//		URL resource = Jhdemo8JsonApplication.class.getClassLoader().getResource("/json/UserRoleListWorkspacesMockData.json");
 //		InputStream inputStream = null;
 //		try {
 //			inputStream = resource.openStream();
@@ -41,7 +37,7 @@ public class Jhdemo8JsonApplication {
 //		}
 
 //		try {
-//			FileReader fileReader = new FileReader("/json/UserRoleWorkspacesMockData.json");
+//			FileReader fileReader = new FileReader("/json/UserRoleListWorkspacesMockData.json");
 //			System.out.println("---->FILE: " + fileReader.getEncoding());
 //		} catch (FileNotFoundException e) {
 //			e.printStackTrace();

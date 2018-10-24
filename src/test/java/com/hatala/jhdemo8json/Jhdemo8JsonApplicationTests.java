@@ -1,4 +1,4 @@
-package com.jhexample.jhdemo8json;
+package com.hatala.jhdemo8json;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

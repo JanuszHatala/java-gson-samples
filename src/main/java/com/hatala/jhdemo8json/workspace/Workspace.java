@@ -1,6 +1,6 @@
-package com.jhexample.jhdemo8json.workspace;
+package com.hatala.jhdemo8json.workspace;
 
-import com.jhexample.jhdemo8json.BizAppType;
+import com.hatala.jhdemo8json.AppType;
 
 import java.util.List;
 
@@ -8,7 +8,7 @@ public class Workspace {
 
 	private String name;
 	private String displayName;
-	private BizAppType defaultAppName;
+	private AppType defaultAppName;
 	private List<WorkspaceApp> apps;
 
 	public String getName() {
@@ -31,11 +31,11 @@ public class Workspace {
 		return apps;
 	}
 
-	public BizAppType getDefaultAppName() {
+	public AppType getDefaultAppName() {
 		return defaultAppName;
 	}
 
-	public void setDefaultAppName(BizAppType defaultAppName) {
+	public void setDefaultAppName(AppType defaultAppName) {
 		this.defaultAppName = defaultAppName;
 	}
 

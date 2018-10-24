@@ -1,8 +1,10 @@
-package com.jhexample.jhdemo8json;
+package com.hatala.jhdemo8json;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.google.gson.Gson;
-import com.jhexample.jhdemo8json.workspace.*;
+import com.hatala.jhdemo8json.workspace.UserRole;
+import com.hatala.jhdemo8json.workspace.UserRoles;
+import com.hatala.jhdemo8json.workspace.WorkspacesResponse;
 import org.springframework.stereotype.Service;
 
 import java.io.IOException;
@@ -12,7 +14,7 @@ import java.util.List;
 
 @Service
 public class WorkspacesService {
-	private static final String ROLE_LIST_DEF_JSON_PATH = "/json/UserRoleWorkspacesMockData.json";
+	private static final String ROLE_LIST_DEF_JSON_PATH = "/json/UserRoleListWorkspacesMockData.json";
 	private static final String ROLES_DEF_JSON_PATH = "/json/UserRolesWorkspaceMockData.json";
 
 	private List<UserRole> userRolesRepo;
@@ -42,7 +44,7 @@ public class WorkspacesService {
 		// Jackson
 //		ObjectMapper mapper = new ObjectMapper();
 //		TypeReference<List<UserRole>> typeReference = new TypeReference<List<UserRole>>() {};
-//		InputStream inputStream = TypeReference.class.getResourceAsStream("/json/UserRoleWorkspacesMockData.json");
+//		InputStream inputStream = TypeReference.class.getResourceAsStream("/json/UserRoleListWorkspacesMockData.json");
 //		try {
 //			List<UserRole> userRolesRepo = mapper.readValue(inputStream, typeReference);
 //
