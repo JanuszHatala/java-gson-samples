@@ -21,6 +21,10 @@ public class HomeController {
 				"localhost:8080/workspaces/Role1\n" +
 				"localhost:8080/workspaces/Role2\n" +
 				"localhost:8080/workspaces/Role3\n" +
+				"\n" +
+				"localhost:8080/workspaces?role=Role1\n" +
+				"localhost:8080/workspaces?role=Role2\n" +
+				"localhost:8080/workspaces?role=Role3\n" +
 				"";
 	}
 
